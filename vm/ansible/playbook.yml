@@ -1,0 +1,8 @@
+- hosts: local
+  sudo: yes
+  roles:
+   - common
+   - geerlingguy.repo-epel
+   - geerlingguy.nginx
+   - geerlingguy.php
+   - geerlingguy.mysql

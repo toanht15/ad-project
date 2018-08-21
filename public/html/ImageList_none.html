@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Letro -  ImageList_Approval </title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="icon" type="image/jpeg" href="/images/Letro_icon.jpg" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link href="https://letro.jp/bower_components/webhostinghub-glyphs/css/webhostinghub-glyphs.css" rel="stylesheet">
+    <link href="https://letro.jp/css/animate.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/non-responsive.css">
+
+    <!-- Custom styling plus plugins -->
+    <link href="../css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://letro.jp/css/maps/jquery-jvectormap-2.0.3.css" />
+    <link href="https://letro.jp/css/icheck/flat/green.css" rel="stylesheet" />
+    <link href="https://letro.jp/css/floatexamples.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/introjs.css">
+
+    <script src="https://letro.jp/js/jquery.min.js"></script>
+    <script src="https://letro.jp/js/nprogress.js"></script>
+    <script src="../js/intro.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://letro.jp/assets/js/ie8-responsive-file-warning.js"></script>
+    <![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="nav-md" data-feedly-mini="yes">
+
+    <div class="container body">
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title">
+                        <a href="../" class="site_title"><img src="../images/letro_Square_Posi.png"></a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="profile">
+                        <p class="profile-name-area">
+                            <img class="img-circle img-author" src="http://letro.jp/images/Letro_icon.jpg">
+                            <span class="profile-name">Greensnap</span><br>
+                            <span class="profile-id">act_1575138002761</span>
+                        </p>
+                    </div>
+                    <!-- /profile -->
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li class="current-page"><a href="../advertiser/dashboard"><i class="fa fa-dashboard"></i> ダッシュボード </a></li>
+                                <li><a href="../advertiser/images"><i class="fa fa-image"></i> 画像 </a></li>
+                                <li><a href="../advertiser/offers_set"><i class="fa fa-briefcase"></i> オファーセット </a></li>
+                                <li><a href="../advertiser/hashtag_setting"><span class="icon-hash">#</span>ハッシュタグ設定</a></li>
+                                <li><a href="../advertiser/instagram"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram連携 </a></li>
+                            </ul>
+                            <!-- /side-menu -->
+                        </div>
+                        <!-- /menu_section -->
+                    </div>
+                    <!-- /sidebar menu -->
+                </div>
+            <!-- /sscroll-view -->
+        </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://graph.facebook.com/1184710414886141/picture" alt="Lê Tùng" class="img-circle"> Lê Tùng
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="http://letro.jp/advertiser/logout"><i class="fa fa-sign-out pull-right"></i> ログアウト</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+
+                                    <li>
+                                        <div class="text-center">
+                                            <strong>現在お知らせはありません。</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main" style="min-height: 587px;">
+                <div id="ImageListBody">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>画像一覧</h3>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_content">
+                                    <div class="row">
+                                        <ul class="hash-list">
+                                            <li class="current-tag">ALL</li>
+                                            <li><a href="">#test(100)</a></li>
+                                            <li><a href="">#test(100)</a></li>
+                                            <li><a href="">#test(100)</a></li>
+                                            <li><a href="">#test(100)</a></li>
+                                            <li><a href="">#test(100)</a></li>
+                                            <li><a href="">#test(100)</a></li>
+                                        </ul>
+                                        <button type="button" class="btn btn-danger pull-right" id="add-hashtag-btn">ハッシュタグを登録する</button>
+                                        <div class="clearfix"></div>
+
+                                        <!-- <div class="acordion">
+                                            <ul class="hash-list">
+                                                <li><a href="">#test(100)</a></li>
+                                                <li><a href="">#test(100)</a></li>
+                                                <li><a href="">#test(100)</a></li>
+                                                <li><a href="">#test(100)</a></li>
+                                                <li><a href="">#test(100)</a></li>
+                                                <li><a href="">#test(100)</a></li>
+                                            </ul>
+                                        </div>
+                                        <a href="" class="allHash pl10 mb30"><i class="fa fa-plus-circle" aria-hidden="true"></i>全てのハッシュタグを表示する</a> -->
+
+                                        <form method="post" action="hoge" class="mb30">
+                                            <div class="form-group sort-area">
+                                                <span class="">絞り込む :</span>
+                                                <div class="radio-inline">
+                                                    <input type="radio" value="approval" name="status" id="all">
+                                                    <label for="all">ALL</label>
+                                                </div>
+                                                <div class="radio-inline">
+                                                    <input type="radio" value="approval" name="status" id="approval">
+                                                    <label for="approval">Offer承認済（0）</label>
+                                                </div>
+                                                <div class="radio-inline">
+                                                    <input type="radio" value="apply" name="status" id="apply">
+                                                    <label for="apply">Offer申請中（32）</label>
+                                                </div>
+                                            </div>  
+                                        </form>
+                                        <div class="clearfix"></div>
+                                        <div class="nocrowing-area">
+                                            <p class="h1 text-center">Whoops<i class="fa fa-tint" aria-hidden="true"></i></p>
+                                            <div class="nocrowing-lead text-center"><strong>#sudoryota</strong>の画像は見つかりません。</div>
+                                            <p class="text-center nocrowing-lead2">別のハッシュタグを登録してみましょう！</p>
+
+                                            <div class="text-center">
+                                                <form class="form-inline" role="form">
+                                                    <div class="form-group">
+                                                        <label class="nocrowing-modal-hash">#</label>
+                                                        <input type="text" name="hashtag" class="form-control nocrowing-hash-input" placeholder="ローイシェ">
+                                                    </div>
+                                                    <div>
+                                                        <button type="submit" class="btn btn-danger mt15">登録する</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- nocrowing-area -->
+
+                                        <!-- 収集中の場合 -->
+                                        <!-- <p class="notfound_title">Crawling<i class="fa fa-spinner" aria-hidden="true"></i></p>
+                                        <p class="notfound_text">画像を収集中です。</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ImageListBody -->
+
+                <div class="hidden">
+                    <div id="js_image_box_tml">
+                        <!-- 画像  -->
+                        <div class="col-xs-3 ugc-img-box" style="margin-bottom:10px;" each="{ list }">
+                            <div class="js_post_box js_post_{ post_id }" style="border: 1px solid rgb(204, 204, 204); min-height: 200px; height: 281px;">
+
+                                <div style="height: 150px; overflow:hidden; padding:4px;">
+                                    <img src="{ image_url }" style="width:100%;" class="ugc-img" onclick="UGC_IMG.openImageModal($(this).attr('src'))">
+                                </div>
+
+                                <!-- -->
+                                <div class="container">
+
+                                    <div class="col-xs-4">
+                                        <img src="{ author_icon_img }" class="img-circle img-responsive" style="margin: 8px 4px; border:1px solid #C2C2C2; max-width: 50%">
+                                    </div>
+
+                                    <div class="col-xs-8" style="padding:10px;">
+                                        <div class="text-right">
+                                            <div if="{ offer_created_at }">
+                                                <p class="label label-primary" if="{ offer_status == 0 || offer_status == 1}">申請済</p>
+                                                <p class="label label-success" if="{ offer_status == 3}">OK</p>
+                                                <p class="label label-danger" if="{ offer_status == 2}">申請失敗</p>
+                                            </div>
+                                            <div if="{ offer_created_at == null }">
+                                                -
+                                            </div>
+                                        </div>
+
+                                        <p class="js_imagebox_author">Author: <a href="{ author_url }" target="_blank">{ author_name }</a></p>
+                                        <div class="clearfix"></div>
+
+                                    </div>
+
+                                    <div if="{ offer_created_at == null }">
+
+                                        <div class="col-md-12">
+                                            <a class="btn btn-primary form-control js_add_offer_draft" data-post_id="{ post_id }" onclick="UGC_IMG.addOfferList('{ post_id }')">オファー予定に追加</a>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <a class="btn btn-danger form-control js_remove_offer_draft hidden" data-post_id="{ post_id }" onclick="UGC_IMG.removeOfferList('{ post_id }')">オファー予定から削除</a>
+                                        </div>
+
+                                    </div>
+                                    <div if="{ offer_created_at }">
+                                        <div class="col-md-12">
+                                            <a href="/advertiser/images/target/detail/{ offer_target_id }" class="btn btn-success form-control">詳細を見る</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="clearfix"></div>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div id="imageModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="" id="image_modal" style="max-width: 100%">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- /page content -->
+        </div>
+    </div>
+
+    <div id="custom_notifications" class="custom-notifications dsp_none">
+        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+        </ul>
+        <div class="clearfix"></div>
+        <div id="notif-group" class="tabbed_notifications"></div>
+    </div>
+
+    <script src="http://letro.jp/js/bootstrap.min.js"></script>
+    <script src="http://letro.jp/bower_components/riot/riot+compiler.min.js"></script>
+    <script>
+        var comment1 = 'OKであれば #';
+        var comment2 = ' でコメントご返信ください。利用サービスおよび規約はこちら： https://www.aainc.co.jp/service/letro/terms.html';
+    </script>
+    <script src="http://letro.jp/js/custom/imagesPage.js"></script>
+    <script src="../js/custom.js"></script>
+    <script>
+        $(function(){ 
+            $(".acordion").hide(); 
+            $(".allHash").click(function(){ 
+                $(this).prev().slideToggle(); 
+                $(this).toggleClass("open");
+                if($(this).hasClass('open')){
+                    $(this).html('<i class="fa fa-minus-circle" aria-hidden="true"></i>表示するタグを減らす')
+                }else{
+                    $(this).html('<i class="fa fa-plus-circle" aria-hidden="true"></i>全てのハッシュタグを表示する')
+                }
+                return false;
+            }); 
+        });
+        window.onload = function () {
+            UGC_IMG.setHashTag('10');
+            UGC_IMG.baseUrl = 'http://letro.jp/advertiser';
+            UGC_IMG.getImage('10');
+        };
+    </script>
+    <script src="http://letro.jp/js/custom.js"></script>
+    <div id="feedly-mini" title="feedly Mini tookit"></div>
+</body>
+</html>

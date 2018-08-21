@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Letro - </title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="icon" type="image/jpeg" href="../images/Letro_icon.jpg" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/non-responsive.css">
+
+    <!-- Custom styling plus plugins -->
+    <link href="../css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/maps/jquery-jvectormap-2.0.3.css" />
+    <link href="../css/icheck/flat/green.css" rel="stylesheet" />
+    <link href="../css/floatexamples.css" rel="stylesheet" type="text/css" />
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/nprogress.js"></script>
+
+
+    <!-- select2 -->
+    <link href="../css/select/select2.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background:#F7F7F7;">
+
+<div class="">
+    <div id="wrapper" style="margin-top: 0px">
+        <div id="login" class="animate form" style="margin-top: 30%">
+            <section class="login_content">
+                <form class="form-horizontal form-label-left" action="../advertiser/login_ad_account" method="POST">
+                    <input type="hidden" name="_token" value="BEudFnP3aub7vHmWKXyNchBWRNxUsJk29IPZxQc0">
+                    <h1><img src="../images/Letro_K.png" style="width: 100px"></h1>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <select name="advertiser_id" class="select2_single form-control" tabindex="-1">
+                                    <option></option>
+                                    <option value="1">ADU TEST</option>
+                                    <option value="2">Expand</option>
+                                    <option value="3">Greensnap</option>
+                                    <option value="6">Lenor Japan</option>
+                                    <option value="7">Sogo_seibu</option>
+                                    <option value="8">USEN＿Register</option>
+                                    <option value="9">ADU UGC Test</option>
+                                    <option value="10">LOEWEJAPAN</option>
+                                    <option value="11">Etvos</option>
+                                    <option value="13">カゴメ</option>
+                                    <option value="2">Expand</option>
+                                    <option value="3">Greensnap</option>
+                                    <option value="1">ADU TEST</option>
+                                    <option value="6">Lenor Japan</option>
+                                    <option value="3">Greensnap</option>
+                                    <option value="2">Expand</option>
+                                    <option value="2">Expand</option>
+                                    <option value="3">Greensnap</option>
+                                    <option value="6">Lenor Japan</option>
+                                    <option value="16">descente</option>
+                                    <option value="2">Expand</option>
+                                    <option value="5">湘南美容外科クリニック（ホルモン注射）</option>
+                                    <option value="2">Expand</option>
+                                    <option value="13">カゴメ</option>
+                                    <option value="4">Yuki Yokoyama</option>
+                                    <option value="2">Expand</option>
+                                    <option value="2">Expand</option>
+                                    <option value="6">Lenor Japan</option>
+                                    <option value="13">カゴメ</option>
+                                    <option value="15">RIZAP</option>
+                                    <option value="12">テストです</option>
+                                    <option value="2">Expand</option>
+                                    <option value="6">Lenor Japan</option>
+                                    <option value="14">Pocket Concierge - AA INBOUND</option>
+                                    <option value="2">Expand</option>
+                                    <option value="2">Expand</option>
+                                    <option value="3">Greensnap</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 mt20">
+                                <button type="submit" class="btn btn-success">次へ &raquo;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel-body -->
+
+                    <div class="clearfix"></div>
+                    <div class="separator">
+                        <p class="change_link">
+                            <a href="../advertiser/ad_account_page" class="to_register"> 広告アカウントを追加する画面へ </a>
+                        </p>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+                <!-- form -->
+            </section>
+            <!-- content -->
+        </div>
+    </div>
+</div>
+<div id="particle"><canvas class="particles-js-canvas-el"></canvas></div>
+<!-- select2 -->
+<script src="../js/select/select2.full.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".select2_single").select2({
+            placeholder: "広告アカウントを選択",
+            allowClear: true
+        });
+    });
+</script>
+<!-- /select2 -->
+<script src="../js/particles/particles.js"></script>
+<script src="../js/particles/setting.js"></script>
+</body>
+
+
+</html>

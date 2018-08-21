@@ -1,0 +1,35 @@
+.testimonial-group-2 > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.testimonial-group-2 > .row > .col-xs-2 {
+    display: inline-block;
+    float: none;
+}
+
+div.warning {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+
+.btn-product {
+    border-color: #d65801 !important;
+    color: #d65801 !important;
+}
+
+.hashtag-list>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.ugcSetTitle {
+    font-size: 16px;
+    font-weight:bold;
+}

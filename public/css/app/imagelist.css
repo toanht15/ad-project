@@ -1,0 +1,129 @@
+.imglist-slide-show .lSAction > .lSPrev {
+    top: 93px;
+}
+
+.imglist-slide-show .lSAction > .lSNext {
+    top: 93px;
+}
+
+.imglist-slide-show .slide-show-image {
+    text-align: center;
+    height: 156px !important;
+    background-color: #f7f7f7;
+}
+
+.imglist-slide-show .image_url {
+    padding-bottom: 10px;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.imglist-slide-show .image_url img {
+    height: 110px;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.imglist-slide-show .delete-icon {
+    top: -152px;
+    right: -49px;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.67);
+}
+
+.imglist-detail-btn {
+    margin: 0;
+    border: none;
+    background: #EEE;
+    border-radius: 0;
+}
+
+.imglist-main-btn-left-div {
+    padding: 32px 0 0 50px;
+    color: white;
+}
+
+.imglist-main-btn-right-div {
+    padding: 0 30px 0 0;
+}
+
+/* introjs*/
+.introjs-helperLayer {
+    background-color: rgba(255, 255, 255, .35);
+}
+
+/* tooltip */
+.small-slideshow-btn .tooltip.top {
+    margin-top: -20px;
+}
+
+/* slideshow icon */
+#slideshow_btn_icon {
+    width: 16%;
+    padding-bottom: 5px;
+}
+
+.custom-radio:checked + label:after,
+.custom-radio:not(:checked) + label:after {
+    background: #EC5D00;
+}
+
+.select-parts-btn {
+    height: 48px;
+    margin-top: 16px;
+}
+
+.multiselect-container {
+    width: 100%;
+}
+
+.btn-offer .multiselect-container {
+    width: 150%;
+}
+
+.btn-offer .multiselect-container {
+    /*margin-top: -287px !important;*/
+}
+
+.btn-offer .multiselect-container > li > a {
+    padding: 5px 0;
+}
+
+.btn-offer .multiselect-container > li > a > label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 20px 3px 35px;
+}
+
+.sort-area .filter-by-part {
+    width: 125px;
+    float: left;
+}
+
+.floatleft {
+    float: left;
+}
+
+.no-image-message {
+    margin: 100px 0;
+}
+
+.testimonial-group-2 > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.testimonial-group-2 > .row > .col-xs-2 {
+    display: inline-block;
+    float: none;
+}

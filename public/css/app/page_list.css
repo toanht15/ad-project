@@ -1,0 +1,83 @@
+div.show-image {
+    position: relative;
+    float:left;
+    margin:5px;}
+div.show-image div.btn{
+    display: none;
+}
+
+div.show-image:hover div.btn{
+    position:absolute;
+    top: -14px;
+    left:40px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+div.item {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+div.item:nth-child(even) {
+    background: #F7F7F7;
+}
+
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+.testimonial-group > .row > .col-xs-2 {
+    display: inline-block;
+    float: none;
+    padding: 0px;
+    width: 50px;
+}
+
+div.warning {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+div.item-image-modal {
+    width: 140px;
+    height: 140px;
+    position: relative
+}
+
+div.item-image-modal img {
+    max-width: 132px;
+    max-height: 132px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+div.item-detail {
+    padding: 10px 10px;
+    height: 60px;
+}
+
+kbd.stopped {
+    background: red;
+}
+
+button.update{
+    border-color: orangered;
+    color: orangered;
+}
+
+button.update:hover {
+
+    color: orangered;
+}
+

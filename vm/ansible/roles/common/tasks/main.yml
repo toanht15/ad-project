@@ -1,0 +1,4 @@
+- name: iptables stop
+  command: /etc/init.d/iptables stop
+- name: iptables chkconfig off
+  command: chkconfig iptables off

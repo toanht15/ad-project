@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Letro - ImageList_NoCrawling</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="icon" type="image/jpeg" href="/images/Letro_icon.jpg" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../fonts/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../bower_components/webhostinghub-glyphs/css/webhostinghub-glyphs.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom styling plus plugins -->
+    <link href="../css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/maps/jquery-jvectormap-2.0.3.css" />
+    <link href="../css/icheck/flat/green.css" rel="stylesheet" />
+    <link href="../css/floatexamples.css" rel="stylesheet" type="text/css" />
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/nprogress.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../assets/js/ie8-responsive-file-warning.js"></script>
+    <![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+            <div class="left_col scroll-view">
+                <div class="navbar nav_title">
+                    <a href="../" class="site_title"><img src="../images/letro_Square_Posi.png"></a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="profile">
+                    <p class="profile-name-area">
+                        <img class="img-circle img-author" src="http://letro.jp/images/Letro_icon.jpg">
+                        <span class="profile-name">Greensnap</span><br>
+                        <span class="profile-id">act_1575138002761</span>
+                    </p>
+                </div>
+                <!-- /profile -->
+                <!-- sidebar menu -->
+                <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="menu_section">
+                        <ul class="nav side-menu">
+                            <li class="current-page"><a href="../advertiser/dashboard"><i class="fa fa-dashboard"></i> ダッシュボード </a></li>
+                            <li><a href="../advertiser/images"><i class="fa fa-image"></i> 画像 </a></li>
+                            <li><a href="../advertiser/videos"><i class="fa fa-video-camera"></i> スライドショー </a></li>
+                            <li><a href="../advertiser/offers_set"><i class="fa fa-briefcase"></i> オファーセット </a></li>
+                            <li><a href="../advertiser/hashtag_setting"><span class="icon-hash">#</span>ハッシュタグ設定</a></li>
+                            <li><a href="../advertiser/instagram"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram連携 </a></li>
+                        </ul>
+                        <!-- /side-menu -->
+                    </div>
+                    <!-- /menu_section -->
+                </div>
+                <!-- /sidebar menu -->
+            </div>
+            <!-- /sscroll-view -->
+        </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/11856622_1649831441969215_1447238621_a.jpg" alt="L&ecirc; T&ugrave;ng" class="img-circle"> L&ecirc; T&ugrave;ng
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="../advertiser/logout"><i class="fa fa-sign-out pull-right"></i> ログアウト</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li role="presentation" class="dropdown">
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                    <li>
+                                        <div class="text-center">
+                                            <strong>現在お知らせはありません。</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /navigation -->
+                </div>
+                <!-- /nav_menu -->
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3>スライドショー一覧</h3>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_content">
+
+                                <table class="table table-striped projects mt40 hashtag-list video-list-table">
+                                    <thead>
+                                        <tr>
+                                            <th>スライドショー</th>
+                                            <th class="text-center">ステータス</th>
+                                            <th class="text-center">時間</th>
+                                            <th class="text-center">枚数</th>
+                                            <th class="text-center">最終更新日</th>
+                                            <th width="100"></th>
+                                            <th width="180"></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="../images/280x140.png" width="80" height="80">
+                                            </td>
+                                            <td class="text-center">
+                                                <span class="label label-advertising p5 status">出稿済</span>
+                                            </td>
+                                            <td class="text-center">
+                                                25秒
+                                            </td>
+                                            <td class="text-center">
+                                                8
+                                            </td>
+                                            <td class="text-center">
+                                                2017/04/12
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-cancel btn-xs form-control">
+                                                    詳細
+                                                </button>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../images/280x140.png" width="80" height="80">
+                                            </td>
+                                            <td class="text-center">
+                                                <span class="label label-applying p5 status">下書き</span>
+                                            </td>
+                                            <td class="text-center">
+                                                25秒
+                                            </td>
+                                            <td class="text-center">
+                                                8
+                                            </td>
+                                            <td class="text-center">
+                                                2017/04/12
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-cancel btn-xs form-control">
+                                                    <i class="fa fa-lg fa-pencil"></i>編集する
+                                                </button>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <a href="/"><span class="fa fa-lg fa-trash"></span></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../images/280x140.png" width="80" height="80">
+                                            </td>
+                                            <td class="text-center">
+                                                <span class="label label-approved p5 status">作成済</span>
+                                            </td>
+                                            <td class="text-center">
+                                                25秒
+                                            </td>
+                                            <td class="text-center">
+                                                8
+                                            </td>
+                                            <td class="text-center">
+                                                2017/04/12
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-cancel btn-xs form-control">
+                                                    <i class="fa fa-lg fa-pencil"></i>編集する
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <a href="" class="btn btn-Synchronis form-control col-xs-12 btn-Synchronis-small">
+                                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>Facebookと同期
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="/"><span class="fa fa-lg fa-trash"></span></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- projects -->
+
+                            </div>
+                            <!-- x_content -->
+                        </div>
+                        <!-- x_panel -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- right_col -->
+        </div>
+        <!-- main_container -->
+    </div>
+    <!-- container -->
+
+    <div id="custom_notifications" class="custom-notifications dsp_none">
+        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+        </ul>
+        <div class="clearfix"></div>
+        <div id="notif-group" class="tabbed_notifications"></div>
+    </div>
+    <script src="../js/validator/validator.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/custom/hashtagListPage.js"></script>
+</body>
+</html>

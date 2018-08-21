@@ -1,0 +1,28 @@
+.lSSlideWrapper {
+    padding: 0;
+}
+.preview-area .lSAction > .lSPrev {
+    top: 395px;
+}
+.preview-area .lSAction > .lSNext {
+    top: 395px;
+}
+.lSSlideOuter .lSPager.lSpg {
+    margin-top: -18px; !important;
+}
+.imglist-confirm-modal .preview-inner p {
+    width: 286px;
+}
+.preview-area .lightSlider {
+    height: 420px!important;
+}
+.fixedComment {
+    color: #999;
+}
+#slideshow_submit_btn {
+    margin-top: 20px;
+    float: right;
+}
+#add-image-icon {
+    margin-top: 55px;
+}

@@ -1,0 +1,128 @@
+
+.testimonial-group > .row {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-top: 10px;
+    display: block;
+}
+
+.testimonial-group > .row > .col-lg-3 {
+    display: inline-block;
+    float: left;
+    width: 175px;
+    padding: 0px;
+    height: 380px;
+    margin: 5px 4px;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+.testimonial-group-2 > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.testimonial-group-2 > .row > .col-xs-2 {
+    display: inline-block;
+    float: none;
+}
+
+p.ugc_text {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.testimonial-group > .row > .col-lg-3 > .row {
+    margin: 0px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.testimonial-group > .row > .col-lg-3 > .row > img {
+    position: absolute;
+    width: 173px;
+    height: 173px;
+    top: 0px;
+    vertical-align: unset;
+}
+
+.testimonial-group > .row > .col-lg-3 > input.add-image {
+    width: 173px;
+    height: 100%;
+    top: 0px;
+    vertical-align: unset;
+    position: absolute;
+}
+
+.hash-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+div.show-image div.btn {
+    display: none;
+}
+
+div.show-image:hover div.btn {
+    position: absolute;
+    top: -15px;
+    left: 155px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+span.delete-button {
+    font-size: 25px;
+}
+
+.part-link-panel {
+    height: 29px;
+    display: block;
+    padding: 5px;
+    width: 173px;
+    position: relative;
+    margin: 0;
+    border: none;
+    background: #EEE;
+    border-radius: 0;
+}
+
+.first-row {
+    margin: 180px 5px 0 5px;
+}
+
+.col-lg-3.show-image .row {
+    line-height: 1;
+}
+
+.ugcSetDetailKPITitle {
+    float: left;
+    width: 70px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0 !important;
+"
+}
+
+.UGCSetDetailKPI {
+    width: 900px;
+    margin: 0 auto 30px auto;
+"
+}
+
+.UGCSetDetailKPI h4 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #F7F7F7;
+}

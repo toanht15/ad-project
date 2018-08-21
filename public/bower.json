@@ -1,0 +1,24 @@
+{
+  "name": "public",
+  "description": "",
+  "main": "",
+  "license": "",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riot": "v2.6.1",
+    "jscroll": "2.3.5",
+    "vue": "2.5.3",
+    "smalot-bootstrap-datetimepicker": "2.4.4",
+    "bootstrap-toggle": "2.2.2",
+    "bootstrap-multiselect": "0.9.15",
+    "toastr": "2.1.3",
+    "select2": "~4.0"
+  }
+}
